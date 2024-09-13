@@ -9,7 +9,7 @@ body{
 .sky{
     height:100vh;
     width:100%;
-    background-image: url("/Projects/Project-04/img/background.jpg");
+    background-image: url("./img/background.jpg");
     background-repeat: no-repeat;
     position: absolute;
     z-index:1;
@@ -19,7 +19,7 @@ body{
     content: "";
     height:50vh;
     width:800vw;
-    background:url("/Projects/Project-04/img/background.jpg");
+    background:url("./img/background.jpg");
     background-repeat: repeat-x;
     z-index: -1;
     animation:skyMove 70s ease-in infinite;
@@ -27,7 +27,7 @@ body{
 .trees{
     height:100vh;
     width:100%;
-    background-image: url("/Projects/Project-04/img/trees.png");
+    background-image: url("./img/trees.png");
     background-size: cover;
     position: absolute;
     top:-144px;
@@ -35,7 +35,7 @@ body{
 .track{
     height:60vh;
     width:800vw;
-    background-image: url("/Projects/Project-04/img/track.png");
+    background-image: url("./img/track.png");
     background-repeat: repeat-x;
     position: absolute;
     top:70vh;
@@ -44,7 +44,7 @@ body{
 .car{
     height:100px;
     width:380px;
-    background-image: url("/Projects/Project-04/img/car_body.png");
+    background-image: url("./img/car_body.png");
     background-size: cover;
     background-repeat: no-repeat;
     position: absolute;
